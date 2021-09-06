@@ -1,0 +1,244 @@
+body{
+	font-size: .9rem;
+}
+
+
+main {
+	min-height: 475px;
+}
+.navbar-laravel {
+    background-color: #e42424;
+    height: 80px;
+    font-weight: 600;
+    font-size: 1em
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav {
+	padding-top: 6px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.card-header {
+	background-color: white;
+	border: none;
+	font-size: 1.4em;
+	font-weight: 650;
+
+	padding-top: 1.5em;
+}
+
+.lesson .small {
+	font-size: 90%;
+}
+
+
+.lesson .border-gray {
+	border-color: #DDD;
+}
+
+.user2-avatar-nav {
+    border-radius: 50%;
+    -webkit-user-drag: none;
+    margin-top: -3px;
+    margin-right: 1em;
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+
+
+ul.lessons .list-group-item {
+	border: none;
+	padding: .6rem .9em;
+	border-left: 5px solid white;
+	padding-left: 15px;
+	line-height: 1.2em;
+}
+
+ul.lessons .list-group-item a:hover , ul.lessons .list-group-item hover a {
+	text-decoration: none;
+}
+
+
+ul.lessons .list-group-item:hover, ul.lessons  .list-group-item.active {
+	 border-left: 5px solid red;
+	 text-decoration: none;
+     background: rgba(255,0,0,0.1);
+
+}
+ul.lessons .list-group-item.active {
+	font-weight: 700;
+}
+ul.lessons .list-group-item:hover a {
+	font-color: #dc3545;
+}
+
+#accordion .card-header{
+	padding: 0;
+	padding-top: .1em;
+	border-bottom: 1px solid rgba(0,0,0,.125);
+	font-size: 1.4em;
+}
+
+#accordion .card-body{
+font-size: .9em;
+}
+
+
+.form-group {
+    margin-bottom: .3rem;
+
+}
+
+.form-control {
+	 border-radius: 0;
+}
+
+
+@media (min-width: 768px) {
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 1.3em;
+}
+}
+.navbar-collapse {
+    background-color: #e42424;
+}
+
+.navbar-collapse .nav-item {
+    padding: 0 5px ;
+}
+.courseSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height:600px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom right, #E42424, #A30606);
+}
+.courseSectionBG {
+     background-size: cover;
+    background-image: linear-gradient(to bottom right, #E42424, #A30606);
+}
+.customCourseCardMargin {
+    /*margin-top: 35% !important;
+    padding-bottom: 10px;
+*/
+margin-top: 40%;
+margin-bottom: 15px !important;
+}
+
+@media (max-width: 500px) {
+
+    .customMargin {
+        margin: 20px 0px 10px 0px !important;
+    }
+
+    .customCourseCardMargin {
+        /*margin-top: 35% !important;
+        padding-bottom: 10px;
+        why u not work
+    */
+    margin-top: 90px;
+    margin-bottom: 10px;
+    }
+
+
+ }
+
+ .centerText {
+     text-align: center;
+ }
+
+.btn-courses {
+width: 100%;
+
+}
+
+.instr-image-courses {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+
+}
+
+.pd-courses {
+    padding: 1em !important;
+}
+
+.sticky-item {
+    /*position: -webkit-sticky;*/
+    position: fixed;
+    bottom:0;
+    align-self: flex-end;
+    height: 100px;
+    width: 100%;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.sticky-container {
+    display: flex;
+    align-items: flex-start;
+    width:100%;
+}
+
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.iframe-container .responsive {
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+
+
+}
+
+.submission:hover {
+	background-color: #e0e0e0;
+	max-height: 100px;
+}
+
+a.video-button:hover {
+	text-decoration: none
+}
+
+.lesson-card:hover {
+    box-shadow: 0 5px 11px rgba(228,36,36,.2);
+    transition: .3s ease-in-out;
+    /*transform: translateY(-3px);*/
+}
+
+.lesson-card {
+    transition: .3s ease-in-out;
+}
+
+/* Footer orangefix text */
+
+#footer-text {
+  /* font-size: 1em; */
+	display: inline-block;
+padding-bottom: 5px;
+}
+
+#footer-text img{
+height: 1em !important;
+/* padding-bottom:; */
+}
+
+#footer-text a {color:#e92027 !important; text-decoration: none;}

@@ -1,0 +1,48 @@
+DATE: April 16-30 2020 	
+WORK DONE:
+
+Vod:
+Adding Services to Vod: Added Donation to Vod Checkout form
+Adding Services to Vod: Hid Vod Checkout form's Donation
+Adding Services to Vod: Switched to dev server testing due to local env not compatible with paypal
+Adding Services to Vod: Tested Paypal in Dev server
+Adding Services to Vod: Succesful trial run via Paypal
+Adding Services to Vod: Preparing Dragonpay for live test
+Adding Services to Vod: Succesful trial run via Dragonpay
+Uploaded 13 new vods with placeholders
+Tested VOD Paid service with duration on live on both Paypal and Dragonpay
+Changed Placeholder Image for Vods, Updated Vod UI
+Added commnents to Vods
+Hid comments on Vods
+Converted Vod To Blackbox
+Implemented new Vod UI on dashboard
+
+Analytics:
+Testing Log Analytics for Vod (Log Entries and Log Views)
+Vod Analytics: Added Sample Analytics page
+Vod Analytics: View only existing vods visits
+Vod Analytics: Added Vod Log Collection
+Vod Analytics: Added Vod Total Views
+Vod Analytics: Added Top 10 Vods by Registered, Unregistered, Unique User, and Total Views (no view yet)
+
+Wordpress website:
+Linked Worpress Video to Blackbox
+Linked the FilmmakHers watch her films to their pages
+
+Covid Memoirs:
+Initial Progress on Covid Memoirs
+Finished Inital Design and content of Covid Memoirs (Pending revisions to follow)
+
+Livestream and Recording:
+Screenshare with Mica - Testing OBS
+Trial run of l2l online screening
+Trial run of OBS Q&A stream/record
+L2L Live stream w/ Rj and Keisha
+Research on Zoom Cloud Record
+Zoom Cloud recording trial run w/ Direk Jose
+
+Others:
+Research on Preview thumbnails for seeker
+Testing Preview thumbnails generator
+Fixed website url bugs
+Improved error pages (error 404 page not found, etc)
